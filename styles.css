@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+
+:root {
+
+--very-dark-blue : hsl(233, 47%, 7%);
+--dark-desaturated-blue: hsl(244, 38%, 16%);
+--soft-violet : hsl(277, 64%, 61%);
+
+--white : hsl(0, 0%, 100%);
+--slightly-transparent-white : hsla(0, 0%, 100%, 0.75);
+--slightly-transparent-white : hsla(0, 0%, 100%, 0.6);
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9375rem;
+}
+
+.container {
+    display: flex;
+    width: 75%;
+    height: 50%;
+    margin: auto;
+    background-color: var(--dark-desaturated-blue);
+    color: var(--white);
+    border-radius: 10px;
+}
+
+.container img {
+    height: auto;
+    width: 100%;
+    border-radius: 0 10px 10px 0;
+    filter: sepia(100%);
+}
+
+.container .text {
+    padding: 50px;
+}
+
+.container .desc {
+    font-size: 0.625rem;
+    padding-bottom: 20px;
+    line-height: 2;
+}
+
+.foot {
+    display: flex;
+}
+
+.insight {
+    color: var(--soft-violet);
+}
